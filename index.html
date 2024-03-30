@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>School Of Engineering & Technology</title>
+</head>
+
+<body>
+    <div class="custom-cursor">
+        <img src="favicon.ico" alt="Custom cursor">
+      </div>
+      
+
+    <!-- Header -->
+
+    <header class="header">
+        <a href="#" class="logo">AIML</a>
+        <i class="bi bi-x" onclick="hideMenu()"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#contact">Report</a>
+
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome</h3>
+            <h1>Sanjay Ghodawat University's</h1>
+            <h2>School Of Engineering & Technology's</h2>
+            <h2>Department</h2>
+            <h2>Of</h2>
+            <h2>Artificial Intelligence & Machine Learning</h2>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="#" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About SOCSE | SGU</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatum laborum modi porro id sequi
+                dignissimos quisquam perspiciatis facere soluta magni rerum suscipit recusandae! Cupiditate tenetur
+                dicta vel beatae nesciunt.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback" id="feedback">
+        <h2 class="heading">Academic Feedback</h2>
+
+        <div class="feedback-container">
+            <div class="feedback-box">
+                <h3>B.Tech</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Query Report</h2>
+
+        <form action="#" id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="text" id="emailid" placeholder="E-Mail Address">
+                <input type="text" id="class" placeholder="Your Class">
+                <input type="number" id="year" placeholder="Year">
+            </div>
+            <textarea name="" id="msgContent" cols="30" rows="10" placeholder="Your concerned query"></textarea>
+            <input type="submit" value="Report" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copf; 2023 | School Of Computer Science & Engineering | All rights reserved.</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-arrow-to-top'></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
